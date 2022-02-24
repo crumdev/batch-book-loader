@@ -26,5 +26,9 @@
     ```
 
 - Right click the results and export out to a file.
-- Format the results to be a json array of objects like in example.json
-- Check the api for your table to match whatever fields you have created
+- Check the api for your table to match whatever fields you have created and format your list into an array of json objects to match. For my table the results looked like `example.json`
+- Create the following environment variables and run `loadbooks.py`
+  - AIRTABLE_API_KEY
+  - AIRTABLE_TABLE_ID
+  - AIRTABLE_TABLE_NAME
+  - BOOK_JSON_FILE

@@ -1,11 +1,11 @@
 import json, os
 from pyairtable import Table
 
-# Set these variables to match your table
+# Set these environment variables to match your table
 api_key = os.environ['AIRTABLE_API_KEY']
-airtable_database_id = "apps0zHa7K0DssXRI"
-table_name = "Books"
-book_load_file = 'books2.json'
+airtable_database_id = os.environ['AIRTABLE_TABLE_ID']
+table_name = os.environ['AIRTABLE_TABLE_NAME']
+book_load_file = os.environ['BOOK_JSON_FILE']
 
 table = Table(api_key, airtable_database_id, table_name)
 

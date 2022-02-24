@@ -1,10 +1,22 @@
-{
-    "Book": "title",
-    "Cover": [
-        {
-            "url": "https"
-            
-        }
-    ],
-    "Link": "https"
-}
+[
+    {
+        "Book": "title1",
+        "Cover": [
+            {
+                "url": "https"
+                
+            }
+        ],
+        "Link": "https"
+    },
+    {
+        "Book": "title2",
+        "Cover": [
+            {
+                "url": "https"
+                
+            }
+        ],
+        "Link": "https"
+    }
+]
